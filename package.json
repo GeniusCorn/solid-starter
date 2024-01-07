@@ -1,0 +1,29 @@
+{
+  "name": "solid-starter",
+  "type": "module",
+  "author": "GeniusCorn",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "vinxi build",
+    "dev": "vinxi dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.2",
+    "@solidjs/router": "^0.10.6",
+    "@solidjs/start": "^0.4.4",
+    "solid-js": "^1.8.8",
+    "vinxi": "0.1.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.1",
+    "@unocss/eslint-plugin": "^0.58.3",
+    "eslint": "^8.56.0",
+    "eslint-plugin-solid": "^0.13.1",
+    "unocss": "^0.58.3"
+  }
+}
